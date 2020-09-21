@@ -4,7 +4,7 @@ from pygame.locals import *
 import math
 import random
 
-# 2 - Initialize the game
+
 pygame.init()
 width, height = 640, 480
 screen=pygame.display.set_mode((width, height))
