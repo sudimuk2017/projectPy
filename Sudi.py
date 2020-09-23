@@ -47,6 +47,7 @@ running = 1
 exitcode = 0
 while running:
     badtimer-=1
+    
     # 5 - clear the screen before drawing it again
     screen.fill(0)
     # 6 - draw the player on the screen at X:100, Y:100
@@ -57,6 +58,7 @@ while running:
     screen.blit(castle,(0,135))
     screen.blit(castle,(0,240))
     screen.blit(castle,(0,345 ))
+    
     # 6.1 - Set player position and rotation
     position = pygame.mouse.get_pos()
     angle = math.atan2(position[1]-(playerpos[1]+32),position[0]-(playerpos[0]+26))
