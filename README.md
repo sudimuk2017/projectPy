@@ -1,4 +1,3 @@
-
 # pygame
 
 This game can run in python3.6 versions without an error. The floating point numbers-
